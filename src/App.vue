@@ -1,17 +1,8 @@
-<script>
-  import Component from './components/Component.vue';
-  export default {
-    data() {
-      return {
+<script lang="ts" setup>
+  import Maps from './components/Maps.vue';
 
-      }
-    },
-    components: {
-      Component
-    }
-  }
 </script>
 
 <template>
-  <Component />
+  <Maps />
 </template>
