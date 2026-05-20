@@ -12,12 +12,12 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "vue": "^3.5.18"
+    "vue": "^3.5.34"
   },
   "devDependencies": {
-    "@vitejs/plugin-vue": "^6.0.1",
-    "@yandex/ymaps3-types": "^1.0.18353609",
-    "vite": "^7.0.6",
-    "vite-plugin-vue-devtools": "^8.0.0"
+    "@vitejs/plugin-vue": "^6.0.7",
+    "@yandex/ymaps3-types": "^1.0.19674496",
+    "vite": "^8.0.13",
+    "vite-plugin-vue-devtools": "^8.1.2"
   }
 }
