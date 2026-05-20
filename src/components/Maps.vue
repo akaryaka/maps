@@ -1,3 +1,6 @@
+<script lang="ts" setup>
+</script>
+
 <template>
   <div class="wrapper">
     <div class="app-box app-box_1">
@@ -41,7 +44,7 @@
     await ymaps3.ready;
 
     const {YMap, YMapDefaultSchemeLayer} = ymaps3;
-    const map = new YMap(
+    const map: any = new YMap(
       // Передаём ссылку на HTMLElement контейнера
       document.getElementById('map'),
       // Передаём параметры инициализации карты
