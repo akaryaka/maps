@@ -1,5 +1,14 @@
 <script lang="ts" setup>
   import Form from './Form.vue';
+  import { YMap, YMapDefaultSchemeLayer, YMapDefaultFeaturesLayer, YMapMarker } from './../assets/libs/ymaps3';
+  import { YMapLocationRequest } from '@yandex/ymaps3-types';
+
+  const LOCATION: YMapLocationRequest = {
+    center: [37.588144, 55.733842],
+    zoom: 9
+  };
+
+  // const {YMapDefaultMarker} = vuefy.module(await ymaps3.import('@yandex/ymaps3-default-ui-theme'));
 </script>
 
 <template>
@@ -9,7 +18,18 @@
       <Form />
     </div>
     <div class="app-box">
-      <div id="map" style="width: 600px; height: 400px"></div>
+      <div style="width: 400px; height: 400px">
+        <YMap :location="LOCATION">
+          <YMapDefaultSchemeLayer />
+          <YMapDefaultFeaturesLayer />
+
+          <YMapMarker :coordinates="[37.588144, 55.733842]" :draggable="true">
+            <!-- <section>
+              <h1>You can drag this header</h1>
+            </section> -->
+          </YMapMarker>
+        </YMap>
+      </div>
     </div>
   </div>
 </template>
