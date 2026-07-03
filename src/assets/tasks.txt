@@ -17,5 +17,3 @@
 *пример
 https://webmap-blog.ru/bez-rubriki/dobavlenie-metok-polzovatelyami-cherez-otdelnuyu-formu-api-yandeks-kart-v2-x
 
-** правильно подключение
-https://yandex.ru/maps-api/docs/js-api/common/connection/vuefy.html
