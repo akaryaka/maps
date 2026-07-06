@@ -17,3 +17,5 @@
 *пример
 https://webmap-blog.ru/bez-rubriki/dobavlenie-metok-polzovatelyami-cherez-otdelnuyu-formu-api-yandeks-kart-v2-x
 
+
+
