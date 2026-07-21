@@ -10,7 +10,7 @@ export const addLabels = (event: { preventDefault: () => void; }) => {
     lang: mapLabels.lang
   }
 
-  if (mapLabels.label.trim() != '' && mapLabels.lat !== 0 && mapLabels.lang !== 0) {
+  if (mapLabels.label.trim() != '') {
     listLabels.value.push(mapLabel);
   }
 }
